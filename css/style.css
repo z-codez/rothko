@@ -2,31 +2,46 @@
     width: 500px;
     border: 50px solid black;
     padding: 50px;
+    margin: auto;
 }
 
 .canvas {
     width: 500px;
     height: 600px;
     background-color: #4D0F00;
+    overflow: hidden;
+    filter: blur(2px);
 }
 
 .one {
     background-color: #EFB762;
-    height: 200px;
-    width: 475px;
-    margin: auto;
+    height: 150px;
+    width: 450px;
+    margin: 20px auto;
+    border-radius: 10px;
+    transform: rotate(-0.6deg);
+    filter: blur(1px);
+    box-shadow:0 0 3px 3px #EFB762;
 }
 
 .two {
     background-color: #8F0401;
     height: 200px;
-    width: 475px;
-    margin: auto;
+    width: 480px;
+    margin: 0 auto 20px;
+    border-radius: 8px 10px;
+    transform: rotate(0.4deg);
+    filter: blur(2px);
+    box-shadow:0 0 3px 3px #8F0401;
 }
 
 .three {
     background-color: #B20403;
-    height: 200px;
+    height: 28%;
     width: 475px;
     margin: auto;
+    border-radius: 50px 10px;
+    transform: rotate(1deg);
+    filter: blur(2px);
+    box-shadow:0 0 3px 3px #B20403;
 }
